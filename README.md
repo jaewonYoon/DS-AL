@@ -1,2 +1,4 @@
-# DS-AL
-DS/AL
+ DS-AL
+ DS/AL
+
+ ### Practicing DATA STRUCTURE / ALGORITHMS 
