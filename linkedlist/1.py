@@ -44,9 +44,25 @@ class LinkedList:
     def first(self):
         if self.num_of_data == 0: 
             return None 
+        
+        self.before = self.head
+        self.current = self.head.next
 
-        -
+        return self.current.data
+        
+    def next(self):
+        if self.current.next == None:
+            return None
+        self.before = self.current
+        self.current = self.current.next
 
-#https://wayhome25.github.io/cs/2017/04/17/cs-19/
+        return self.current.data 
+    
+    def size(self):
+        return self.num_of_data 
+
+    
+
+
 
 
