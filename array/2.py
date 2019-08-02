@@ -1,3 +1,3 @@
 import sys
 
-sys.stdin.readline(5)
+sys.stdin.readline(5)cd .
