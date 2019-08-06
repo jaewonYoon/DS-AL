@@ -36,7 +36,7 @@ class LinkedList:
         self.current = self.before
         
         self.num_of_data -= 1 
-        
+
         return pop_data 
 
     def first(self):
@@ -59,4 +59,12 @@ class LinkedList:
 
     def size(self):
         return self.num_of_data
+        
+
+    #using next and find  method , you can use linear search O(n)
+    
+    def binarySearch(self, data):
+        l = LinkedList
+        low = 0 
+        high = l.length(self)-1
         
